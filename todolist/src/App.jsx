@@ -4,9 +4,8 @@ import TodoList from "./components/TodoList"
 
 function App() {
  
-  const [todos, setTodos]= useState([
-   
-  ])
+  const [todos, setTodos]= useState([ ])
+  const [todoValue, setTodoValue] = useState('')
 
   function handleAddTodos(newTodo) {
     const newTodoList =[...todos, newTodo]
@@ -21,13 +20,15 @@ function App() {
   }
 
   function handeEditTodo(index){
-
+    const valueToBeEdited = todos[index]
+    setTodoValue(valueToBeEdited)
+    handleDeleteTodo(index)
   }
 
   return (    
     <>
-     <TodoInput handleAddTodos={handleAddTodos}/>
-     <TodoList handleDeleteTodo={handleDeleteTodo} todos={todos}/>
+     <TodoInput todoValue={todoValue} setTodoValue={setTodoValue} handleAddTodos={handleAddTodos}/>
+     <TodoList handleEditTodo = {handeEditTodo} handleDeleteTodo={handleDeleteTodo} todos={todos}/>
     </>
   )
 }
