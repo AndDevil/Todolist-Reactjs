@@ -30,27 +30,21 @@ Live Demo: 👉 [ToDo List App](https://todolist023.netlify.app/)
 
 ---
 
-## 📌 Project Structure
-
-├── src/                # React components and logic │   ├── App.jsx │   ├── components/     # Task-related components ├── index.html          # Entry HTML file ├── package.json        # Project dependencies ├── vite.config.js      # Vite configuration └── README.md
-
----
-
 ## ⚡ Installation & Setup
 
 1. Clone the repository:  
    ```bash
    git clone https://github.com/AndDevil/Todolist-Reactjs.git
-   cd Todolist-Reactjs
+   cd Todolist-Reactjs```
 
 2. Install dependencies:
 
-npm install
+```npm install```
 
 
 3. Start the development server:
 
-npm run dev
+```npm run dev```
 
 
 4. Open http://localhost:5173 in your browser.
@@ -60,7 +54,7 @@ npm run dev
 
 ---
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 Feel free to fork this repository and submit a pull request.
@@ -68,17 +62,14 @@ Feel free to fork this repository and submit a pull request.
 
 ---
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License – see the LICENSE file for details.
 
 
 ---
 
-👨‍💻 Author
-
-Shrish Kumar
-
-GitHub: AndDevil
-
-LinkedIn: Shrish Kumar
+## 👨‍💻 Author
+**Shrish Kumar**  
+- GitHub: [AndDevil](https://github.com/AndDevil)  
+- LinkedIn: [Shrish Kumar](https://www.linkedin.com/in/shrish-k-83821212a/)
